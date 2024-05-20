@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="200dp"
+        android:id="@+id/regimg"
+        android:src="@drawable/register1"
+        ></ImageView>
+
+    <LinearLayout
+        android:id="@+id/regll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/regimg"
+        android:layout_margin="20dp"
+        android:background="@drawable/outerborder"
+        >
+        <EditText
+            android:id="@+id/reget1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/name"
+            android:layout_margin="15dp"
+            ></EditText>
+
+        <EditText
+            android:id="@+id/reget2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/email"
+            android:layout_margin="15dp"
+            ></EditText>
+
+        <EditText
+            android:id="@+id/reget3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/pass1"
+            android:layout_margin="15dp"
+            ></EditText>
+
+        <EditText
+            android:id="@+id/reget4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/pass1"
+            android:layout_margin="15dp"
+            ></EditText>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="30dp"
+            android:tooltipText="Register"
+            android:id="@+id/regbtn1"
+            android:text="Register"
+            android:background="@drawable/roundbutton"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/login"
+            android:gravity="center"
+            android:layout_gravity="center"
+            ></Button>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/regbtn2"
+        android:text="Back"
+        android:background="@drawable/roundbutton"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_below="@+id/regll"
+        ></Button>
+
+</RelativeLayout>

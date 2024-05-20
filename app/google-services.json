@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "234446648306",
+    "project_id": "haro-51137",
+    "storage_bucket": "haro-51137.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234446648306:android:fdc3bf10f256f18cb0f16b",
+        "android_client_info": {
+          "package_name": "com.haro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234446648306-1b8jiephnidcmdoofrpsqheis91h1h52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR7j7ReD66oFPCsJ6ttIgnxWCBXGhobk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234446648306-1b8jiephnidcmdoofrpsqheis91h1h52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

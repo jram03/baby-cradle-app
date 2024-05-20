@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/yellowbackground">
+
+    <ImageView
+        android:id="@+id/mainiv1"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:padding="20dp"
+        android:src="@drawable/newgen"
+        ></ImageView>
+    <TextView
+        android:id="@+id/maintv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainiv1"
+        android:textColor="@color/black"
+        android:text="Presents"
+        android:gravity="center"
+        android:fontFamily="@font/poppins"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:id="@+id/maintv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Baby Cradle"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:layout_below="@+id/maintv1"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        ></TextView>
+    <ImageView
+        android:id="@+id/mainiv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maintv2"
+        android:src="@drawable/cradle"
+        android:padding="5dp"
+        ></ImageView>
+
+</RelativeLayout>
